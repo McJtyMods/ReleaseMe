@@ -68,6 +68,7 @@ class Ui(object):
         self.mods.insert(tkinter.END, "RFToolsControl")
         self.mods.insert(tkinter.END, "Restrictions")
         self.mods.insert(tkinter.END, "XNet")
+        self.mods.insert(tkinter.END, "TheOneProbe")
         self.mods.insert(tkinter.END, "DeepResonance")
         self.mods.insert(tkinter.END, "LostCities")
         self.mods.insert(tkinter.END, "InControl")
