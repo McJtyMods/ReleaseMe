@@ -61,6 +61,7 @@ class Ui(object):
         self.mods.bind('<<ListboxSelect>>', lambda _: self.__perform_action(Ui.SELECT_MOD))
         self.mods.insert(tkinter.END, "McJtyLib")
         self.mods.insert(tkinter.END, "RFToolsBase")
+        self.mods.insert(tkinter.END, "RFToolsDimensions")
         self.mods.insert(tkinter.END, "RFToolsUtility")
         self.mods.insert(tkinter.END, "RFToolsPower")
         self.mods.insert(tkinter.END, "RFToolsBuilder")
@@ -74,6 +75,7 @@ class Ui(object):
         self.mods.insert(tkinter.END, "InControl")
         self.mods.insert(tkinter.END, "FxControl")
         self.mods.insert(tkinter.END, "McJtyLib")
+        self.mods.insert(tkinter.END, "XNet")
         self.mods.insert(tkinter.END, "BurnNGrind")
 
     def __add_labeled_text(self, parent, text):
