@@ -74,9 +74,8 @@ class Ui(object):
         self.mods.insert(tkinter.END, "LostCities")
         self.mods.insert(tkinter.END, "InControl")
         self.mods.insert(tkinter.END, "FxControl")
-        self.mods.insert(tkinter.END, "McJtyLib")
-        self.mods.insert(tkinter.END, "XNet")
         self.mods.insert(tkinter.END, "BurnNGrind")
+        self.mods.insert(tkinter.END, "SignTastic")
 
     def __add_labeled_text(self, parent, text):
         panel = tkinter.Frame(parent)
