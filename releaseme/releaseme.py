@@ -114,6 +114,7 @@ def new_log():
 
 def build():
     goto_mod()
+    cmd.do_command("chmod", "+x", "gradlew")
     cmd.do_command_log(None, get_gradle_command(), "build")
 
 def release():
@@ -122,6 +123,7 @@ def release():
     file = open("../curseforge_key", "r", encoding='utf-8')
     key = file.readline().rstrip()
     file.close()
+    cmd.do_command("chmod", "+x", "gradlew")
     cmd.do_command_log(None, get_gradle_command(), "curseforge", "-Pcurseforge_key=" + key)
 
 def replace_in_file(filename, transformer, result):
